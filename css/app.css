@@ -1,0 +1,33 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+.card {
+  height: 180px;
+}
+
+.wrapper-active .card {
+  height: 450px;
+  transition: 0.5s ease;
+}
+
+.wrapper-active .card-body .content {
+  display: none;
+}
+
+.wrapper-active .detail {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+textarea {
+  padding: 10px 15px;
+  font-size: 17px;
+  height: 128px;
+  outline: none;
+}
+
+.detail {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div class="container  ">
+    <div class="row d-flex justify-content-center align-items-center vh-100">
+        <div class=" col-8 col-lg-6">
+            <div class="wrapper">
+                <div class="card bg-primary p-4 ">
+                    <div class="card-body bg-white">
+                        <form action="#" class="d-flex justify-content-center form d-none">
+                            <img src="img/qr-code.svg" alt="" width="100px">
+                        </form>
+                        <div class="content text-center ">
+                            <input type="file" class="inputFile" hidden>
+                            <i class="fas fa-cloud-arrow-up fa-3x text-primary"></i>
+                            <p>Upload QR Code to scan</p>
+                        </div>
+                    </div>
+
+                    <div class="detail ">
+
+                        <textarea class="bg-transparent   border-1 border-white w-100 my-4 text-white">This is simple qr code reader app mode with javascript
+                        </textarea>
+                        <div class="button d-flex justify-content-between">
+                            <button class=" close btn btn-light  text-primary px-3">Close</button>
+                            <button class=" copy btn btn-light  text-primary px-3">Copy Text</button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
